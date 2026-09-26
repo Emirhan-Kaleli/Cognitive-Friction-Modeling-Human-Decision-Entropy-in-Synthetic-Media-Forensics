@@ -1,0 +1,27 @@
+# ============ ÇEKİRDEK BORU HATTI (run_pipeline.py) ============
+# Uçtan uca tek komutla çalışmayı sağlayan minimal, işletim sisteminden
+# bağımsız paketler. Sürüm sabitlemesi yok -> platformlar/ortamlar arası
+# (Windows, Linux, macOS, CUDA/CPU, Kaggle, Colab) çakışma riski en aza iner.
+torch
+torchvision
+torchaudio
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+tqdm
+scikit-learn
+
+# ============ BORU HATTI YARDIMCILARI ============
+# Hiçbir sürüm kısıtı taşımayan saf Python paketleri:
+httpx                     # src/config.py istemcisi + görsel indirme
+python-dotenv             # src/config.py (.env yükleme)
+pydantic                  # src/schema.py, src/scorer.py veri modelleri
+rich                      # src/scorer.py konsol tabloları
+
+# ============ NOTLAR ============
+# - CUDA GPU kullanımı için PyPI torch CPU build'i içerir:
+#     python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# - Denetimsiz NLP analizi (src/unsupervised_analysis.py) için ayrıca:
+#   umap-learn hdbscan sentence-transformers  (boru hattında gerekmez)

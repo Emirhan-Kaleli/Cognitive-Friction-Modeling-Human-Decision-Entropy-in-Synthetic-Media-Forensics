@@ -1,0 +1,36 @@
+# Ortam değişkenleri
+.env
+
+# Sanal ortamlar
+.venv/
+
+# Python derleme önbellekleri
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ham veri dosyaları
+data/raw/*.jsonl
+data/raw/*.png
+data/raw/*.jpg
+data/raw/*.webp
+data/raw/*.jpeg
+data/raw/*.gif
+data/raw/images/
+data/raw/**/*.jpg
+data/raw/**/*.png
+data/raw/
+data/raw/**
+
+# IDE / editör
+.vscode/
+.idea/
+*.swp
+
+# İşletim sistemi
+Thumbs.db
+.DS_Store
+
+# Loglar
+*.log
+logs/
