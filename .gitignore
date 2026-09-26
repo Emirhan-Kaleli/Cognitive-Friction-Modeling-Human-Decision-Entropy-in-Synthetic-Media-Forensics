@@ -9,6 +9,11 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
+# Dışa aktarılan veri paketleri
+dist/
+*.zip
+upload_hf.py
+
 # Ham veri dosyaları
 data/raw/*.jsonl
 data/raw/*.png
