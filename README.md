@@ -78,7 +78,7 @@ The multi-task model (`CognitiveGatingModel`) leverages a frozen **DINOv2 (`dino
 ## 🚀 Quickstart
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Emirhan-Kaleli/Cognitive-Friction-Modeling-Human-Decision-Entropy-in-Synthetic-Media-Forensics
 cd aiornot-project
 
 python -m venv .venv
@@ -234,7 +234,7 @@ Eğitilen model (`CognitiveGatingModel`), dondurulmuş bir **DINOv2 (`dinov2_vit
 ## 🚀 Hızlı Başlangıç (Quickstart)
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Emirhan-Kaleli/Cognitive-Friction-Modeling-Human-Decision-Entropy-in-Synthetic-Media-Forensics
 cd aiornot-project
 
 python -m venv .venv
